@@ -3,7 +3,7 @@ import "tfconfig"
 byte_length = tfconfig.resources.random_id.random.config.byte_length
 
 byte_length_less_than_50 = rule { 
-    byte_length < 50
+    byte_length < 8
 }
 
 byte_length_greater_than_0 = rule { 
