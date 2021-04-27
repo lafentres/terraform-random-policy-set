@@ -1,6 +1,6 @@
 import "tfconfig"
 
-byte_length = tfconfig.resources.random_id.whatever.config.byte_length
+byte_length = tfconfig.resources.random_id.random.config.byte_length
 
 byte_length_less_than_50 = rule { 
     byte_length < 50
